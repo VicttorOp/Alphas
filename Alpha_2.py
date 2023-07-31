@@ -58,7 +58,7 @@ def comeco():
     if US.distance_centimeters <= 5:
         GS.reset()
         time.sleep_ms(500)
-        rotina = rotina + 1
+        rotina += 1
     else:
         print("aguardando")
 
